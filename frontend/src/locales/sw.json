@@ -1,0 +1,72 @@
+{
+  "app": {
+    "name": "FaceAttend-KE",
+    "tagline": "Mfumo wa Kuhudhuria kwa Kutambua Uso"
+  },
+  "auth": {
+    "login": "Ingia",
+    "register": "Jisajili",
+    "logout": "Toka",
+    "reg_number": "Namba ya Usajili",
+    "email": "Barua Pepe",
+    "password": "Nenosiri",
+    "full_name": "Jina Kamili",
+    "phone": "Simu (+254...)",
+    "consent": {
+      "title": "Ridhaa ya Ulinzi wa Data",
+      "biometric": "Ninaridhia uchakataji wa kibaiometriki ya uso",
+      "storage": "Ninaridhia kuhifadhi data nchini Kenya",
+      "purpose": "Ninaelewa data ni kwa ajili ya kuhudhuria tu",
+      "required": "Ridhaa inahitajika kuendelea"
+    },
+    "errors": {
+      "invalid_credentials": "Namba ya usajili au nenosiri si sahihi",
+      "registration_exists": "Namba ya usajili tayari imesajiliwa",
+      "consent_required": "Lazima utoe ridhaa kutumia utambuzi wa uso"
+    }
+  },
+  "face": {
+    "enroll": {
+      "title": "Sajili Uso Wako",
+      "instructions": "Weka uso wako kwenye fremu na bonyeza kuteka",
+      "success": "Ume sajiliwa kwa mafanikio!",
+      "errors": {
+        "no_face": "Hakuna uso uliogunduliwa. Hakikisha mwanga ni mzuri.",
+        "multiple_faces": "Nyuso nyingi zimegunduliwa. Tafadhali uwe peke yako.",
+        "liveness_failed": "Uthibitishaji umeshindwa. Tafadhali angalia kamera.",
+        "consent_required": "Tafadhali toa ridhaa ya kibaiometriki kwanza"
+      }
+    },
+    "recognize": {
+      "title": "Weka Hudhuria",
+      "course_placeholder": "mfano, CS301",
+      "success": "Hudhuria imewekwa kwa {{name}}",
+      "already_marked": "Tayari imewekwa saa {{time}}",
+      "errors": {
+        "not_enrolled": "Uso haujasajiliwa. Tafadhali sajili kwanza.",
+        "no_match": "Uso haujatambuliwa. Jaribu tena."
+      }
+    }
+  },
+  "dashboard": {
+    "welcome": "Karibu, {{name}}!",
+    "attendance_history": "Historia ya Kuhudhuria",
+    "no_records": "Hakuna rekodi za kuhudhuria bado",
+    "course": "Kozi",
+    "time": "Muda",
+    "status": "Hali"
+  },
+  "compliance": {
+    "data_rights": "Haki Zako za Data",
+    "access": "Fikia data yangu",
+    "erase": "Futa data yangu",
+    "withdraw_consent": "Ondoa ridhaa"
+  },
+  "common": {
+    "loading": "Inapakia...",
+    "error": "Hitilafu imetokea",
+    "retry": "Jaribu tena",
+    "cancel": "Ghairi",
+    "confirm": "Thibitisha"
+  }
+}

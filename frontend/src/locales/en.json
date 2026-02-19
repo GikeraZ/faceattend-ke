@@ -1,0 +1,72 @@
+{
+  "app": {
+    "name": "FaceAttend-KE",
+    "tagline": "Facial Recognition Attendance System"
+  },
+  "auth": {
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "reg_number": "Registration Number",
+    "email": "Email",
+    "password": "Password",
+    "full_name": "Full Name",
+    "phone": "Phone (+254...)",
+    "consent": {
+      "title": "Data Protection Consent",
+      "biometric": "I consent to facial biometric processing",
+      "storage": "I consent to data storage in Kenya",
+      "purpose": "I understand data is for attendance only",
+      "required": "Consent is required to continue"
+    },
+    "errors": {
+      "invalid_credentials": "Invalid registration number or password",
+      "registration_exists": "Registration number already registered",
+      "consent_required": "You must provide consent to use face recognition"
+    }
+  },
+  "face": {
+    "enroll": {
+      "title": "Enroll Your Face",
+      "instructions": "Position your face in the frame and click capture",
+      "success": "Face enrolled successfully!",
+      "errors": {
+        "no_face": "No face detected. Please ensure good lighting.",
+        "multiple_faces": "Multiple faces detected. Please be alone.",
+        "liveness_failed": "Verification failed. Please look at the camera.",
+        "consent_required": "Please provide biometric consent first"
+      }
+    },
+    "recognize": {
+      "title": "Mark Attendance",
+      "course_placeholder": "e.g., CS301",
+      "success": "Attendance marked for {{name}}",
+      "already_marked": "Already marked at {{time}}",
+      "errors": {
+        "not_enrolled": "Face not enrolled. Please enroll first.",
+        "no_match": "Face not recognized. Try again."
+      }
+    }
+  },
+  "dashboard": {
+    "welcome": "Welcome, {{name}}!",
+    "attendance_history": "Attendance History",
+    "no_records": "No attendance records yet",
+    "course": "Course",
+    "time": "Time",
+    "status": "Status"
+  },
+  "compliance": {
+    "data_rights": "Your Data Rights",
+    "access": "Access my data",
+    "erase": "Delete my data",
+    "withdraw_consent": "Withdraw consent"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "An error occurred",
+    "retry": "Try again",
+    "cancel": "Cancel",
+    "confirm": "Confirm"
+  }
+}
