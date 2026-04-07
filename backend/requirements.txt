@@ -1,5 +1,7 @@
-# FaceAttend-KE Backend Dependencies
-# Python 3.11+ Required
+# Build tools (must be first)
+pip==25.3.0
+setuptools==70.0.0
+wheel==0.43.0
 
 # Core Framework
 Flask==3.0.0
